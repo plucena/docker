@@ -1,0 +1,15 @@
+{
+    "name": "Curassow Hello World Example",
+    "description": "An example application using Swift on Heroku.",
+    "repository": "https://github.com/kylef/Curassow-example-helloworld",
+    "website": "https://github.com/kylef/Curassow-example-helloworld",
+    "keywords": [
+        "swift",
+        "curassow"
+    ],
+    "buildpacks": [
+        {
+            "url": "https://github.com/kylef/heroku-buildpack-swift"
+        }
+    ]
+}
