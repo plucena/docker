@@ -45,4 +45,6 @@ Swift Docker -  IBM Bluemix install
         cf ic ip list
         cf ic ps
         cf ic ip bind  [IP] [IMAGE_ID]
+        
+9. Test your app in a browser - http://IP:8000
 
