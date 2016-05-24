@@ -11,9 +11,9 @@ How to install it on IBM BlueMix
 
 * Install BlueMix Containers CLI - https://console.ng.bluemix.net/docs/containers/container_cli_cfic.html
 
-* Login with Bluemix credentials
+* Login with Bluemix credentials - API endpoint: https://api.ng.bluemix.net
 
-        cf ic login
+        cf login
 
 
 * Get your namespace
