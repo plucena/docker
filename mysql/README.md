@@ -31,5 +31,16 @@ How to install it on IBM Bluemix
         cf ic cpi plucena/mysqld registry.ng.bluemix.net/$YOURNAMESPACE/mysql:new
         
 
-6.   Test
+6.   Get your image id number - $IMAGE_ID
+
+        cf ic images
+        
+7.   Run your image and get $PID
+        
+        cf ic run  $IMAGE_ID               
+
+8.  Request an IP for your Docker
+        cf ic ip request
+
+9.  List available IPs 
  
