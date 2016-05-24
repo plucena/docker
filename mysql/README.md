@@ -26,10 +26,11 @@ If a namespace is displayed from the cf ic namespace get command, take note of t
 
         cf ic namespace set <new_name>
         
+        
 5. Copy MySQL to your Bluemix Containers - Use yournamespace from Step 3 
 
         cf ic cpi plucena/mysqld registry.ng.bluemix.net/$YOURNAMESPACE/mysql:new
         
 
-5.
+6. 
  
