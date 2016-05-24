@@ -53,4 +53,4 @@ How to install it on IBM Bluemix
         cf ic ip bind $IP $PID
 
 
-11.  Login to pma2.mybluemix.net -  Server IP is your IP, user: root, password: unasp, database: moodle
+11.  Login to pma2.mybluemix.net -  Server: $IP , user: root , password: unasp , database: moodle
