@@ -31,7 +31,7 @@ Swift Docker -  IBM Bluemix install
         }
         
 
-7.  Clone the swift app. The will run on port 8000.
+7.  Clone the swift app. It will run on port 8000.
 
         git clone https://github.com/kylef/Curassow-example-helloworld
         cd Curassow-example-helloworld/Sources
