@@ -1,6 +1,4 @@
-Swift Docker 
-
-How to run it on IBM Bluemix
+Swift Docker -  IBM Bluemix install
 ---------
 
 1. Install Docker and IBM Containers CLI.
@@ -23,3 +21,14 @@ How to run it on IBM Bluemix
 
     cf ic run -it  [IMAGE ID]
 
+6. Now let's clone a simple server app, compile and run it. The simple app is based on Swift Currasow HTTP project and it is defined on Sources/main.swift.  
+
+        import Glibc
+        import Inquiline
+        import Curassow
+        serve { _ in
+        return Response(.Ok, contentType: "text/plain", body: "Hello World")
+        }
+        
+
+7. 
