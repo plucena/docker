@@ -2,6 +2,7 @@ MYSQL Docker - https://hub.docker.com/r/plucena/mysqld
 ---------------
 
 user: root
+
 password: unasp
 
 
