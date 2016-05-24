@@ -35,12 +35,22 @@ How to install it on IBM Bluemix
 
         cf ic images
         
-7.   Run your image and get $PID
+7.   Run your image and get $PID 
         
         cf ic run  $IMAGE_ID               
 
 8.  Request an IP for your Docker
-        cf ic ip request
+       
+         cf ic ip request
 
-9.  List available IPs 
+
+9.  List available IPs  - $IP
  
+        cf ic ip list
+
+10.  Assign IP to tour docker (from Step 9, Step 7)
+        
+        cf ic ip bind $IP $PID
+
+
+11.  Login to pma2.mybluemix.net -  Server IP is your IP, user: root, password: unasp, database: moodle
