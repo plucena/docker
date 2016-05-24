@@ -19,6 +19,7 @@ How to install it on IBM Bluemix
 3. Get your namespace - $YOURNAMESPACE
 
         cf ic namespace get
+  
         
 4 . [Optional] 
 
@@ -27,10 +28,10 @@ If a namespace is displayed from the cf ic namespace get command, take note of t
         cf ic namespace set <new_name>
         
         
-5. Copy MySQL to your Bluemix Containers - Use yournamespace from Step 3 
+5.  Copy MySQL to your Bluemix Containers - Use yournamespace from Step 3 
 
         cf ic cpi plucena/mysqld registry.ng.bluemix.net/$YOURNAMESPACE/mysql:new
         
 
-6. 
+6.   Test
  
