@@ -19,3 +19,8 @@ How to install it on IBM BlueMix
 * Get your namespace
 
         cf ic namespace get
+
+If a namespace is displayed from the cf ic namespace get command, take note of that name and skip to the next step. If a namespace is not specified for your organization yet, set one using the following command:
+
+        cf ic namespace set <new_name>
+
