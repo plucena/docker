@@ -13,4 +13,4 @@ How to install it on IBM BlueMix
 
 * Get your namespace
 
-    cf ic namespace get
+        cf ic namespace get
