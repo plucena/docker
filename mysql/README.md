@@ -37,7 +37,7 @@ How to install it on IBM Bluemix
         
 7.   Run your image and get $PID 
         
-        cf ic run  $IMAGE_ID               
+        cf ic run -p 3306:3306  $IMAGE_ID               
 
 8.  Request an IP for your Docker
        
